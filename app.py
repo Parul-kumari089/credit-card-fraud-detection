@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pickle
 scaler = pickle.load(open("scaler.pkl", "rb"))
-import google.generativeai as genai
 
 
 # Load model
