@@ -8,7 +8,8 @@ This project presents a machine learning-based web application designed to detec
 
 🚨 Problem Statement
 
-With the rapid growth of digital payments, credit card fraud has become a critical concern. Detecting fraud is challenging due to:
+With the rapid growth of digital payments, credit card fraud has become a critical concern. 
+Detecting fraud is challenging due to:
 
 Highly imbalanced datasets (fraud cases are rare)
 Complex and hidden patterns in transaction behavior
@@ -19,10 +20,15 @@ This project aims to build a reliable system that minimizes financial risk by ac
 
 
 🔍 Real-time fraud detection
+
 ⚡ Quick test with predefined scenarios
+
 🔬 Advanced transaction input simulation
+
 🎲 Auto-fill sample data for testing
+
 📊 Fraud probability visualization
+
 
 
 
@@ -30,9 +36,13 @@ This project aims to build a reliable system that minimizes financial risk by ac
 
 
 Python
+
 Scikit-learn
+
 Pandas, NumPy
+
 Streamlit
+
 SMOTE (for handling imbalanced data)
 
 
@@ -40,16 +50,27 @@ SMOTE (for handling imbalanced data)
 
 
 🔹 Data Preprocessing
+
 Feature scaling using StandardScaler
+
 Handling class imbalance using SMOTE
+
 🔹 Model
+
 Random Forest Classifier
+
 Captures complex patterns
+
 Reduces overfitting
+
 Provides strong performance on imbalanced data
+
 🔹 Evaluation Metrics
+
 Accuracy
+
 Confusion Matrix
+
 Classification Report (Precision, Recall, F1-score)
 
 
@@ -72,16 +93,24 @@ Simulate detailed transaction data and predict fraud probability
 
 
 User inputs transaction details
+
+
 Data is scaled using a trained scaler
+
 Machine learning model predicts the transaction class
+
 Fraud probability score is displayed
+
 
 
 🚀 Future Enhancements
 
 Integration with real-time financial systems
+
 Implementation of deep learning models
+
 Explainable AI for model transparency
+
 Deployment as a REST API
 
 
@@ -102,20 +131,25 @@ Deployment as a REST API
 📎 Installation (Run Locally)
 
 git clone https://github.com/Reeya0409/credit-card-fraud-detection.git
+
 cd credit-card-fraud-detection
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 
 📚 References
 
 Kaggle Credit Card Fraud Detection Dataset
+
 Scikit-learn Documentation
 
 
 👩‍💻 Author
 
 Parul Kumari
+
 B.Tech CSE Student | Machine Learning Enthusiast
 
 ⭐ Support
