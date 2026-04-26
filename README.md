@@ -16,18 +16,29 @@ Complex and hidden patterns in transaction behavior
 This project aims to build a reliable system that minimizes financial risk by accurately identifying fraudulent transactions.
 
 ⚙️ Key Features
+
+
 🔍 Real-time fraud detection
 ⚡ Quick test with predefined scenarios
 🔬 Advanced transaction input simulation
 🎲 Auto-fill sample data for testing
 📊 Fraud probability visualization
+
+
+
 🧠 Technologies Used
+
+
 Python
 Scikit-learn
 Pandas, NumPy
 Streamlit
 SMOTE (for handling imbalanced data)
+
+
 🤖 Machine Learning Approach
+
+
 🔹 Data Preprocessing
 Feature scaling using StandardScaler
 Handling class imbalance using SMOTE
@@ -40,7 +51,11 @@ Provides strong performance on imbalanced data
 Accuracy
 Confusion Matrix
 Classification Report (Precision, Recall, F1-score)
+
+
+
 🖥️ Application Modules
+
 🏠 Overview
 
 Provides insights into fraud detection and prevention
@@ -54,16 +69,25 @@ Run instant test cases for normal and fraudulent transactions
 Simulate detailed transaction data and predict fraud probability
 
 📊 How It Works
+
+
 User inputs transaction details
 Data is scaled using a trained scaler
 Machine learning model predicts the transaction class
 Fraud probability score is displayed
+
+
 🚀 Future Enhancements
+
 Integration with real-time financial systems
 Implementation of deep learning models
 Explainable AI for model transparency
 Deployment as a REST API
+
+
+
 📂 Project Structure
+
 ├── app.py
 ├── fraud_model.pkl
 ├── scaler.pkl
@@ -73,14 +97,22 @@ Deployment as a REST API
 ├── demo/
 ├── confusion_matrix/
 └── README.md
+
+
 📎 Installation (Run Locally)
+
 git clone https://github.com/Reeya0409/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 pip install -r requirements.txt
 streamlit run app.py
+
+
 📚 References
+
 Kaggle Credit Card Fraud Detection Dataset
 Scikit-learn Documentation
+
+
 👩‍💻 Author
 
 Parul Kumari
