@@ -130,7 +130,7 @@ Deployment as a REST API
 
 📎 Installation (Run Locally)
 
-git clone https://github.com/Reeya0409/credit-card-fraud-detection.git
+git clone https://github.com/Parul-kumari089/credit-card-fraud-detection.git
 
 cd credit-card-fraud-detection
 
